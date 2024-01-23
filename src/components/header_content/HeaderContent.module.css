@@ -1,0 +1,33 @@
+.header_content {
+  margin-top: 91px;
+  width: 775px;
+}
+
+.header_content_title {
+  font-size: 62px;
+  color: white;
+  font-weight: 700;
+  margin-top: 320px;
+}
+
+.header_content_btn {
+  background: #27ae60;
+  padding: 20px 36px;
+  width: 182px;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  border-radius: 8px;
+  margin-top: 60px;
+  cursor: pointer;
+
+}
+
+.header_content_text {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  margin-top: 30px;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+}

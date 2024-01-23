@@ -1,0 +1,18 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+.wrapper_header {
+
+ width: 1440px;
+ margin: auto;
+}
+.home {
+ background: #1974CE;
+  background: url("../assets/image/Rectangle 5.png");
+ background-size: 100% 100%; /* Изменено на contain */
+ background-position: center; /* Центрирует изображение по горизонтали и вертикали */
+ height: 1000px; /* Задайте фиксированную высоту в 70% высоты окна просмотра */
+ flex-shrink: 0;
+ background-repeat: no-repeat
+}
