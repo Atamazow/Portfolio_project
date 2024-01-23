@@ -1,18 +1,29 @@
 * {
- margin: 0;
- padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .wrapper_header {
-
- width: 1440px;
- margin: auto;
+  width: 1440px;
+  margin: auto;
 }
 .home {
- background: #1974CE;
+  background: #1974ce;
   background: url("../assets/image/Rectangle 5.png");
- background-size: 100% 100%; /* Изменено на contain */
- background-position: center; /* Центрирует изображение по горизонтали и вертикали */
- height: 1000px; /* Задайте фиксированную высоту в 70% высоты окна просмотра */
- flex-shrink: 0;
- background-repeat: no-repeat
+  background-size: 100% 100%; /* Изменено на contain */
+  background-position: center; /* Центрирует изображение по горизонтали и вертикали */
+  height: 1000px; /* Задайте фиксированную высоту в 70% высоты окна просмотра */
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+}
+
+.main {
+  width: 1440px;
+  margin: auto;
+}
+
+.main_title {
+  margin-top: 80px;
+  color: #1d1d1b;
+  font-size: 42px;
+  font-weight: 700;
 }
