@@ -1,0 +1,62 @@
+.wrapper_aboutCompany {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about_title {
+  font-size: 42px;
+  font-weight: 500;
+  color: #1d1d1b;
+}
+
+.wrapper_about_title_text {
+  width: 580px;
+}
+
+.wrapper_count_about {
+  display: flex;
+  background: #f8f8f8;
+  justify-content: space-around;
+  border-radius: 24px;
+  width: 700px;
+  padding: 104px 75px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.about_count {
+  font-size: 88px;
+  font-weight: 300;
+  color: #1d1d1b;
+  line-height: 142%;
+}
+.about_count_relative {
+    position: relative;
+}
+
+.about_count_plus {
+    position: absolute;
+    bottom: 60px;
+    font-size: 40px ;
+    font-weight: 1000;
+    color: #27AE60;
+
+
+}
+.about_text {
+  font-size: 18px;
+  margin-top: 28px;
+  color: #67675f;
+  line-height: 142%; /* 25.56px */
+}
+
+.about_count_title {
+    color: #67675F;
+     font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142%; /* 34.08px */
+    letter-spacing: 0.12px;
+}
