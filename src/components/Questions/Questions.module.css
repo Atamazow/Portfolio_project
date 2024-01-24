@@ -1,0 +1,109 @@
+.wrapper_questions {
+    background: #F8F8F8;
+    margin-top: 80px;
+}
+
+.wrapper_questions_two {
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.questions_title {
+    color: #1E1E1C;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.questions_textGreen {
+    color: #27AE60;
+     font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 39.2px */
+    margin-top: 23px;
+}
+
+.questions_textGrey {
+    color: #1E1E1C;
+     font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    margin-top: 30px;
+}
+
+.questions_btn {
+    display: inline-flex;
+    padding: 20px 36px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #27ae60;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 53px;
+    cursor: pointer;
+}
+
+.questions_BlockGreen {
+    width: 318px;
+    height: 588px;
+    flex-shrink: 0;
+    background: #27ae60;
+    margin-right: 180px;
+}
+
+.questions_wrapper_input {
+    width: 686px;
+    height: 475px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 4px 40px 0px rgba(7, 17, 51, 0.07);
+    position: absolute;
+    right: 0;
+}
+
+.questions_inputDiv ,.questions_inputDiv {
+
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #DDD;
+}
+.questions_inputPhone ,.questions_inputName,.questions_inputComm {
+    border-width: 0;
+    padding: 23px 40px;
+    width: 603px;
+    box-sizing: border-box;
+ }
+.questions_inputComm {
+  }
+
+.questions_inputDiv {
+    margin-top: 20px;
+}
+.questions_wrapper_inputPadding {
+    padding: 40px;
+ }
+
+.questions_inputDivComm {
+    border: 1px solid #DDD;
+    margin-top: 23px;
+    height: 150px;
+}
+
+.questions_inputNext {
+    margin-top: 43px;
+    color: #181A28;
+     font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 15px */
+}
