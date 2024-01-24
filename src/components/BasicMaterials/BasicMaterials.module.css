@@ -1,0 +1,31 @@
+.imageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin-top: 60px;
+}
+.wrapper_img_title {
+    width: 340px;
+    position: relative;
+
+}
+.img_basic:hover {
+    box-shadow: 0px 4px 80px 0px rgba(113, 133, 164, 0.50);
+    margin-top: -30px;
+}
+
+.img_basic {
+    width: 340px;
+    height: 524px ;
+}
+
+.overlayText {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+     color: white; /* Цвет текста */
+    font-size: 40px; /* Размер шрифта */
+    font-weight: bold; /* Жирный текст, если нужно */
+    /* Другие стили по необходимости */
+}

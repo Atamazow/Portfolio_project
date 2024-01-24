@@ -6,6 +6,7 @@ function Header(props) {
     <header className={style.header}>
       <div className={style.wrapper_nav_log}>
         <img src={icon} className={style.header_navOne} />
+        <div className={style.header_nav}>Услуги</div>
         <div className={style.header_nav}>Материалы</div>
         <div className={style.header_nav}>Доставка и оплата</div>
         <div className={style.header_nav}>О компании</div>

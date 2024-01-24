@@ -1,35 +1,38 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 35px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0;
 }
 
 .header_nav {
-    font-size: 16px;
-     cursor: pointer;
-    margin-left: 91px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 91px;
+}
 
+.header_nav:hover {
+    color: #27ae60;
 }
 
 .header_navOne {
-     cursor: pointer;
+  cursor: pointer;
 }
 
 .wrapper_nav_log {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .login {
-    width: 87px;
-    height: 36px;
-    margin-top: 27px;
-    border-radius: 8px;
-    background: #84EDF8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #1A4359;
-    cursor: pointer;
+  width: 87px;
+  height: 36px;
+  margin-top: 27px;
+  border-radius: 8px;
+  background: #84edf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1a4359;
+  cursor: pointer;
 }
