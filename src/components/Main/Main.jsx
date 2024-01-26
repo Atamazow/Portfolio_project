@@ -4,6 +4,7 @@ import WhyChooseUs from "../WhyChooseUs/WhyChooseUs";
 import BasicMaterials from "../BasicMaterials/BasicMaterials";
 import AboutCompany from "../AboutCompany/AboutCompany";
 import Questions from "../Questions/Questions";
+import Delivery from "../Delivery/Delivery";
 
 function Main(props) {
   return (
@@ -16,6 +17,7 @@ function Main(props) {
         <AboutCompany />
       </main>
       <Questions />
+      <Delivery />
     </div>
   );
 }

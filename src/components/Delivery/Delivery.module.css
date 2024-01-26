@@ -1,0 +1,37 @@
+.wrapper_delivery {
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.delivery_text {
+    color: #1E1E1C;
+     font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    margin-top: 30px;
+}
+
+.wrapper_deliveryTwo {
+   width: 570px;
+}
+
+.wrapper_delivery_iconText {
+    display: flex;
+    margin-top: 36px;
+}
+
+.delivery_text_mini {
+    margin-left: 20px;
+}
+
+.delivery_title {
+    color: #1E1E1C;
+
+     font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
