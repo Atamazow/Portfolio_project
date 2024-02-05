@@ -40,11 +40,18 @@
     border: 1px solid white;
     padding: 12px 20px;
     color: white;
+    cursor: pointer;
+}
+
+.footerNumber:hover {
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+    transition: .1s;
 }
 
 .footerWrapperLogo {
     display: flex;
     font-size: 12px;
+
     font-weight: 400;
 }
 
