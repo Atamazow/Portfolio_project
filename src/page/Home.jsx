@@ -4,6 +4,7 @@ import style from "./style.module.css";
 import HeaderContent from "../components/header_content/HeaderContent";
 import WhyChooseUs from "../components/WhyChooseUs/WhyChooseUs";
 import Main from "../components/Main/Main";
+import Footer from "../components/Footer/Footer";
 function Home(props) {
   return (
     <div>
@@ -14,6 +15,7 @@ function Home(props) {
         </div>
       </div>
       <Main />
+      <Footer />
     </div>
   );
 }

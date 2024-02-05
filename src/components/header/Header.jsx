@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./header.module.css";
-import icon from "../../assets/Icons/f_41164214e543b92c (1) 1.svg";
+import icon from "../../assets/Icons/spec.svg";
 function Header(props) {
   return (
     <header className={style.header}>
